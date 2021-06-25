@@ -1,0 +1,71 @@
+﻿/* 서브4페이지 */
+
+/* 섹션부분 */
+#section{ width: 100%; height: 982px; background: url(../images/MainCnt.jpg) 0px 0px / auto repeat; margin: 0 auto; }
+.sectionwrap{ width: 1420px; height: 982px; margin: 0 auto; }
+.Top_Box{width: 1420px; height: 163px; background: #272b3b;}
+
+/* 왼쪽메뉴 */
+.left_content{width: 195px; height: 759px; margin-top: 30px; margin-left: 16px; background: #ffffff;}
+.left_border{width: 171px; height: 736px; margin: 10px auto; border: 1px solid #d1d1d1;}
+.Left_Title{font-size: 30px; font-weight: bold; margin-top: 23px; margin-left: 21px; line-height: 1.2;}
+.Left_Img{margin-top: 23px; margin-left: 21px;}
+.Left_List{margin-top:30px; margin-left: 15px; height: 470px;}
+.Left_List li{padding: 6px; font-weight: bold; letter-spacing: -1px; }
+.Left_List li a{display: block; letter-spacing: -0.5px; /* font-family: 'notokr';  */font-weight: 400; line-height: 23px; font-size: 15px; color: #666; text-align: left; font-weight}
+.Left_List li a:hover{color: #9bce85;}
+.Left_Icon{width: 100%;height: 54px;display: block;text-align: center;margin: 0 auto; margin-left: 35px;}
+.Left_Icon li{float: left; margin-left: 8px;}
+.Left_Icon li img{ margin-top: 10px; margin-left: -1px;}
+.Left_Icon li:hover{background: #9bce85;}
+.Left_Icon .print{ width: 40px; height: 40px; background: #ededed; border-radius: 20px; }
+.Left_Icon .Pc{ width: 40px; height: 40px; background: #ededed; border-radius: 20px;}
+
+/* 오른쪽컨텐츠 */
+.right_content{width: 1182px; height: 759px; margin-top: 30px; margin-left: 16px; background: #ffffff;}
+.right_border{width: 1160px; height:736px; margin: 10px auto; border: 1px solid #d1d1d1;}
+.right_Title{width: 1160px; height: 155px; text-align: center; margin-top: 25px; line-height: 1.5;}
+/* .right_Title h1{font-size: 28px; letter-spacing: -1.5px; }
+.right_Title h2{font-size: 13px; padding-top: 5px; letter-spacing: -1.5px;} */
+.right_Cts{width: 1140px; height: 515px; margin: 0 auto; background: #ff0000;}
+.right_line{width: 1140px; height: 5px; display: table;}
+.right_line .gray1{width: 50%; background: #bdbdbd; display: table-cell;}
+.right_line .gray2{width: 50%; background: #dbdbdb;
+display: table-cell;}
+
+.center_tit_box{width: 100%; height: 100px; text-align: center; margin-top: 30px; line-height: 1.5;}
+.center_tit_box h1{font-size: 30px; letter-spacing: -1.5px; }
+.center_tit_box h2{font-size: 15px; padding-top: 5px; letter-spacing: -1.5px; float: left; margin-left: 167px;}
+.tit_Img1{width: 268px; height: 65px; background: url(../images/bg_Bridge01.png) center bottom / contain no-repeat ;/* margin-top: 20px; */}
+.tit_Img2{width:268px; height: 65px; background: url(../images/bg_Bridge02.png) center bottom / contain no-repeat; /* margin-top: 20px; */ margin-right: -22px; float: right;}
+
+.cts1{width: 100%; height: 33%; border-bottom: 1px solid #d1d1d1; background: #f2f4f9;}
+.cts1_1{width: 33%; height: 100%; border-right: 1px solid #d1d1d1; float: left;}
+.cts1_1last{width: 33%; height: 100%; border-right: none; float: left;}
+.cts1_1 dl{margin-top: 65px;}
+.cts1_1last dl{margin-top: 65px;}
+.cts1_1 dt{font-size: 20px;  }
+.cts1_1last dt{font-size: 20px;  }
+.cts1_1 dt a{color: #454d5d; font-weight: bold; }
+.cts1_1last dt a{color: #454d5d; font-weight: bold; }
+.cts1_1 dt a:hover{text-decoration: underline;}
+.cts1_1last dt a:hover{text-decoration: underline;}
+.cts1_1 dd{font-size: 14px; color: #fffff; margin-top: 5px;}
+.cts1_1last dd{font-size: 14px; color: #fffff; margin-top: 5px;}
+
+/* 컨텐츠이미지 */
+.cts_Img1{width: 96px; height: 96px; margin: 45px 10px 0px 10px; background: url(../images/icon_Bridge04.png) 0 0 / auto no-repeat; float: left; }
+.cts_Img2{width: 96px; height: 96px; margin: 45px 10px 0px 10px; background: url(../images/icon_Bridge04.png) -96px 0 / auto no-repeat; float: left; }
+.cts_Img3{width: 96px; height: 96px; margin: 45px 10px 0px 10px; background: url(../images/icon_Bridge04.png) -192px -0px / auto no-repeat; float: left; }
+.cts_Img4{width: 96px; height: 96px; margin: 45px 10px 0px 10px; background: url(../images/icon_Bridge04.png) -0px -96px / auto no-repeat; float: left; }
+.cts_Img5{width: 96px; height: 96px; margin: 45px 10px 0px 10px; background: url(../images/icon_Bridge04.png) -96px -96px / auto no-repeat; float: left; }
+.cts_Img6{width: 96px; height: 96px; margin: 45px 10px 0px 10px; background: url(../images/icon_Bridge04.png) -192px -96px / auto no-repeat; float: left; }
+.cts_Img7{width: 96px; height: 96px; margin: 45px 10px 0px 10px; background: url(../images/icon_Bridge04.png) -0px -192px / auto no-repeat; float: left; }
+.cts_Img8{width: 96px; height: 96px; margin: 45px 10px 0px 10px; background: url(../images/icon_Bridge04.png) -96px -192px / auto no-repeat; float: left; }
+.cts_Img9{width: 96px; height: 96px; margin: 45px 10px 0px 10px; background: url(../images/icon_Bridge04.png) -192px -192px / auto no-repeat; float: left; }
+
+.side_nav{width: 194px; height: 760px; margin-left: 15px; margin-top: 15px; background: #ff99e6;}
+.board{width: 1183px; height: 760px; margin-left: 15px; margin-top: 15px; background: #ff73ff;}
+
+
+

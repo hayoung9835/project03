@@ -1,0 +1,20 @@
+﻿/* 서브8페이지(게시판) */
+
+/* 섹션 */
+#section{ width: 100%; /* height: 1350px; */   background: url(../images/MainCnt.jpg) 0px 0px / auto repeat; margin: 0 auto; }
+.sectionwrap{ width: 1420px;  height: 1179px;  margin: 164px auto; background: url();}
+.sectionborder{margin: 20px auto; border: 1px solid #d1d1d1;width: 1400px; height: 1160px;}
+.titlewrap{width: 100%; height: 65px; }
+.title{width: 300px; height: 60px; font-size: 30px; color: #272b3b; font-weight: bold; margin-left: 120px; margin-top: 80px;}
+.titleImg{width: 128px; height: 40px; background: url(../images/bg_Bridge03.png) -148px 0 / auto no-repeat;}
+.Right_line{width: 85%; height: 5px; display: table;  margin: 0 auto;}
+.Right_line .gray1{width: 50%; background: #bdbdbd; display: table-cell;}
+.Right_line .gray2{width: 50%; background: #dbdbdb;
+display: table-cell;}
+
+.ctnwrap{width: 85%; height: 1000px; background: #ffff00; margin: 0 auto;}
+.ctn1{width: 100%; height: 75px; border-bottom: 1px solid #cccccc; float: left;}
+.ctn1 ul li{width: 171px; height: 37px; float: left; margin-left: 54px; margin-top: 35px; text-align: center;}
+.ctn1 ul li a{font-size: 20px; color: #000000; letter-spacing: -0.5px;}
+.ctn1 .active{border-bottom: 4px solid #465379;; }
+.ctn2{width: 80%; height: 50px; background: #cccccc; /* margin: 50px auto; */}

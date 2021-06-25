@@ -1,0 +1,37 @@
+/* 메인 콘텐트 */
+#main_content { position: relative; width: 1000px; height: 400px; margin: 0 auto; }
+
+.info_box{padding: 30px; background: #ffffff; text-align: center;}
+.join_info_title{font-size: 22px; line-height: 28px; font-family: 'NanumBold'; color: #254482; letter-spacing: -1px;}
+.join_info_title span{display: block; font-size: 14px; line-height: 20px; color: #777; font-family: 'Nanum'; margin: 5px 0 0;}
+.join_type{width: 100%; overflow: hidden; margin-top: 20px; margin-left: 140px; }
+.join_type li{ margin-left: 1%; font-family: 'NanumBold';float: left; text-align: center;}
+.join_type li a{height: 75px; padding: 20px 10px; color: #666; background: #fff; border: 2px solid #c8d1db; border-radius: 20px; overflow: hidden;}
+.join_type li#on2 a{color: #fff; background: #1b7abd; border: 2px solid #1b7abd;}
+.tb1_frm{margin-top: 20px;}
+.tit_02{margin-top: 30px; font-size: 16px; line-height: 1.4; font-family: "NanumBold"; color: #222; background: url("../images/bul_02.png") no-repeat 0 2px; padding-left: 25px;}
+.tit_02 span{display: block; font-size: 13px; color: #254482; margin-top: 4px;}
+.f_title{margin-left: 5px;}
+
+
+/* 가입 양식 폼 */
+.form_box{border-bottom: 1px solid #b8c1c3; vertical-align: middle; font-size: 13px; color: #606262; text-align: left; padding: 13px 10px;}
+
+#join_box {	width: 100%;	margin: 0 auto; }
+#join_box .red{display: block; padding: 10px 0 5px; line-height: 1.4em; font-size: 12px; color: #f00; float: left; width:  430px; margin-left:  10px;}
+#join_box h2 { 	border-bottom: 2px solid #394b61; padding-top: 18px; }
+#join_box .col1 { float: left;	width: 20%;
+color: #222; display: block;
+margin-top: 7px;
+}
+#join_box .col2 { float: left;	width: 267px; }
+#join_box .col3 { float: left; }
+#join_box .form input { width: 260px;	height: 27px; }
+#join_box .form { height: 38px; }
+
+#join_box input[name=email1] { width: 100px; }
+#join_box input[name=email2] { width: 136px; }
+#join_box .bottom_line { margin-top: 10px;}
+#join_box .buttons { text-align: right;	margin: 20px 100px 0 0; }
+
+.col3>a>img{margin-left: 6px;}

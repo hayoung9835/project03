@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+/* 마진 패딩 초기화 */
+* { padding: 0; margin: 0; }
+/* 페이지 기본 글꼴과 크기 설정 */
+body { font-family: "맑은 고딕", "돋움" sans-serif;   font-size: 14px; color: #333333; }
+img { border: 0;}
+ul { list-style-type: none; }
+/* <a> 태그 기본 설정 */
+a { display: inline-block; text-decoration: none; }
+
+
+a:visited { text-decoration:none; color: #222222; }
+a:active { text-decoration:none; color: #222222; }
+/* 상단 헤더 */
+#top { position: relative; width: 1000px; height: 80px; margin: 0 auto; }
+#top h1 { position: absolute; top: 20px; left: 40px; font-size: 20px; }
+#top h1 a{ font-family: 'Henny Penny', cursive; color: #999999; }
+#top h2 { position: absolute; top: 27px; left: 168px; font-size: 16px; }
+#top h2 a{ color: #999999; }
+#top #top_menu { float: right; margin: 30px 40px 0 0;}
+#top #top_menu li { display: inline; }
+#menu_bar { height: 48px; background-color: #443e58; font-size: 16px; }
+#menu_bar ul { width: 1000px; margin: 0 auto; padding: 14px 0 0 40px; }
+#menu_bar li { display: inline; margin-left: 90px; color: white; }
+#menu_bar a:link { color: white; }
+#menu_bar a:hover { color: white; }
+#menu_bar a:visited { color: white; }
+#menu_bar a:active { color: white; }
+/* 메인 이미지 */
+section{background: ffffff; width:  100%; height: 100%;}
+#section_wrap{width:  1020px; margin: 0px auto; background: #ffffff;     height: 1100px;}
+.section_h_box{width:  100%; height:  155px;}
+#main_img_bar {width:  500px height:  300px; margin:  0 auto; padding: 10px; background: url(../images/pattern.gif) repeat; }
+#main_img_bar img { margin-top: 25px; }
+.title{border-bottom: 2px solid #f2f2f2; font-size: 38px; text-align: center; width: 100%; height: 70px; font-weight: bold; padding-top: 25px; letter-spacing: 2px; color: #888888;}
+/* 하단 푸터 */
+footer { height: 70px; background-color: #efefef; }
+#footer_content { position: relative; width: 1000px; margin: 0 auto; color: #999999; font-size: 14px; }
+#footer_logo { position: absolute; top: 24px; left: 40px; font-size: 16px; }
+#footer_logo span { font-family: 'Henny Penny', cursive; color: #888888; font-weight: bold; }
+#download { position: absolute; top: 20px; left: 400px; }
+#author { position: absolute; top: 20px; right: 40px; }

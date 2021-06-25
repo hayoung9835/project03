@@ -1,0 +1,5 @@
+﻿.searchBox select{margin-top: 2px;}
+.searchBox input {margin-top: 2px;}
+.searchBox button{position: relative; top: 3px;}
+.notice .content_wrap{display: block;}
+.notice label{cursor: default;}

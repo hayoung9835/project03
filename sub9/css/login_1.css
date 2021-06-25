@@ -1,0 +1,51 @@
+﻿/* 로그인페이지 컨텐츠 */
+@import url(common.css);
+html{overflow: scroll;}
+*{margin: 0; padding: 0; }
+ul, li{list-style: none;}
+a{text-decoration: none;}
+body{font-family: 'notokr', '맑은 고딕', '돋움', sans-serif, Arial; /*  background:url(../sub1/moe_sub11.png) no-repeat center top; */   /* opacity: 0.5;  */ }
+img{border: 0;}
+.cf:after{content: ''; display: block; clear: both;}
+.fl{float: left;}
+.fr{float: right;}
+.cl{clear: left;}
+
+/* 섹션 */
+#sectionwrap{width: 100%; height: 1000px;  background: url(../images/MainCnt.jpg) 0px 0px / auto repeat;}
+#section{width: 1420px; height: 1000px; margin: 164px auto; background: #ffffff; }
+
+.login_h{width: 100%; height: 90px; border-bottom:2px solid #f2f2f2;}
+.login_h>p{font-size: 38px; text-align: center; width: 100%; height: 90px; font-weight: bold; padding-top: 25px; letter-spacing: 2px; color: #888888;}
+
+.login_text{width: 100%; height: 100px;}
+.login_text>p{width: 100%; height: 100px; text-align: center; color: #666666;  font-size: 18px; margin-top: 25px;}
+.login_text>p>span{color: #2668a5; font-size: 25px; font-weight: bold;}
+
+.login_img{width: 100%; height: 280px;}
+.login_img>img{display: block; margin: 0 auto; width: 382px; height: 262px;}
+
+.login_wrap{width: 100%; height: 225px;}
+.login_box{width: 393px; height: 223px; padding: 43px 71px; margin: 0 auto; border: 1px solid #eaeaea; border-radius: 30px; background: #f5f6f7; box-shadow: 3px 3px #cfcfcf; text-align: left;}
+
+#loginForm legend{display: none;}
+#loginForm fieldset{width: 100%; height: 223px;border: none; position: relative;}
+#loginForm label.labelStyle{width: 60px; display: block; float: left; font-weight: bold; letter-spacing: -1px;}
+#login input{border: 1px solid #d7d7d7; background-color: #fff !important; color: #8e8e8e; width: 99%; height: 35px; margin: 0 0 6px; padding-left: 40px; font-size: 13px; color: #666; }
+#Id{background: url(../images/ico_login_id.gif) no-repeat 15px 50%;}
+#password{background: url(../images/ico_login_pw.gif) no-repeat 15px 50%;}
+/* 포인트 */
+/* #userId, #userPWD{width: 150px; border: 1px solid #999999; margin-bottom: 5px; padding: 2px;} */
+#login{float: left;}
+#btnLogin{margin-left: 46px; position: absolute; right: -2; top:-2px; background: url(../images/btn_login.gif) no-repeat; width: 79px; height: 84px; text-indent: -100000px; margin-bottom: 10px;}
+#btn1{clear: both; margin-left: 5px; padding: 10px 0px;}
+#btn1 label{font-size: 11px; vertical-align: top;}
+#btn2{margin-left: 60px;}
+#btn2 input{background-color: #666666; border-style: none; border-radius: 5px; color: #ffffff; padding: 5px 10px;}
+
+.W_hid{display: none;}
+.btns{height: 40px; background: #ffffff; width: 100%; border: 1px solid #ddd; text-align: center; color: #333333;}
+.btns a{display: block;  text-align: center; color: #333333; padding-top: 10px;}
+.idpw_search li{clear: both; background: url(../images/ico_search_arrow.gif) no-repeat; padding-left: 20px; margin-bottom: 3px; color: #666; overflow: hidden; font-size: 12px;}
+.idpw_search{margin-top: 15px;}
+.idpw_search img{vertical-align: middle; float: right;}

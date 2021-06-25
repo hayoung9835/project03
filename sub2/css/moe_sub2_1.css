@@ -1,0 +1,117 @@
+﻿html{overflow-y: scroll;}
+*{margin: 0; padding: 0;}
+ul, li{list-style: none;}
+a{text-decoration: none;}
+body{font-family: '맑은고딕', '돋움', sans-serif;  /* background: url(../moe_sub2.png) no-repeat center top; */ }
+/* body .notice{overflow-y: scroll;} */
+img{border: 0;}
+.cf:after{content: ''; display: block; clear: both;}
+.fl{float: left;}
+.fr{float: right;}
+
+#wrap{width: 1420px; height: 7000px; margin:0px auto;}
+
+
+/* 헤더부분 */
+#header{width: 1420px; height: 194px;  background: #99b3ff; opacity: 0.5; }
+#top_menu{width: 1420px; height: 30px; margin-top: 30px; background: #ff4cff; }
+.h_gnb{width: 230px; height: 30px; background: #d90036;}
+.h_icon{width: 190px; height: 30px; float: right; background: #d90036; }
+
+#main_menu{width: 1420px; height: 103px;  background: #ffff73; }
+.h_logo{width: 230px; height: 104px; background: #265cff; }
+.h_nav{width: 905px; height: 104px; margin-left: 180px;background: #40ff00; }
+.h_search{width: 105px; height: 104px; background: #00ffff; }
+
+
+
+/* 섹션부분 */
+#section{width: 1420px;  /* opacity: 0.5; */}
+.content1{width: 1420px; height: 458px; background: #99ccff;}
+.content2{width: 1420px; }
+.content3{width: 1420px; height: 203px; background: #ff99e6;}
+
+.ct1_nav{width: 593px; height: 48px; margin-top: 42px; margin-left: 117px; background: #ff0000;}
+.ct1_graph{width: 1186px; height: 77px; margin-top: 45px; margin-left: 118px; background: #ff0000;}
+.ct1_route{width: 295px; height: 25px; margin-top: 40px; margin-left: 564px; background: #ff0000;}
+
+.total{width: 100px; height: 25px; margin-top: 52px; margin-left: 120px;}
+.searchBox{width: 448px; height: 35px; margin-top: 42px; margin-left: 641px; }
+.notice{width: 1187px;  margin-top: 8px; margin-left: 117px; }
+
+.checkBox{width: 1185px; height: 120px; margin-top: 39px; margin-left: 117px;}
+
+
+/* 토탈 */
+.total > span{font-size: 1.2em; color: #596a9e; }
+
+/* 게시판검색창 */
+.searchBox fidlset{float: right; } 
+.searchBox select, .searchBox input{vertical-align: middle; border: 1px solid #dddddd; padding-bottom: 9px; margin-right: -5px;}
+.searchBox select{height: 20px; width: 100px; padding: 17px; text-align: center;}
+.searchBox input{height: 25px; width: 308px; font-size: 17px;}
+.searchBox button{display: block; margin: 0 auto; text-align: center; width: 39px; height: 35px; text-indent: -999px; float: right; background: url(../../images/controls.png); background-position: 0px -156px; }
+ 
+/* 게시판 목록*/
+.notice{font-size: 15px;  text-align: center;  padding-top: 10px; /* overflow: hidden; */ }
+.notice > .first{clear: both; background-color: #ececec; color: #131304; font-weight: bold; font-size: 16px;}
+.notice > div:hover {text-align: underline;}
+.notice input{font-size: 20px;}
+.notice > div input{ display: none; font-size: 20px;} 
+.notice > div{line-height: 40px; height: 45px;  }
+.notice > .first > div{line-height: 40px; height: 40px; text-align: center; float: left; border-top: 3px solid #dddddd;   }
+.notice div{border-right: 1px solid #dddddd; }
+.notice > div > div{width: 107px; line-height: 45px; height: 45px; text-align: center; float: left; border-bottom: 1px solid #dddddd; padding-right: 10px;  }
+.notice label:hover{text-decoration: underline;}
+
+/* 게시판 세부목록 */
+.notice .title2{width: 703px; text-align: justify;}
+.notice .title2 label{padding-left: 10px;}
+.notice .content_wrap{height: auto; width: 100%; text-align: left; /* padding: 0% */; display: none;}
+/* .notice > div:nth-child(even){background-color: #dddddd; height: 50px; } */
+.notice input:checked ~ div.content_wrap{display: block;  }
+.notice input:checked ~ div.title2 > label{cursor: default; text-decoration: underline; font-weight: bold;}
+
+.notice label{cursor: pointer; line-height: 50px; height: 50px; display: block; white-space: nowap; overflow: hidden; text-overflow: ellipsis;}
+.subject{text-align: justify; font-weight: bold; font-size: 16px; background: #dfdfdf; padding: 10px 20px; line-height: 26px; }
+.content{text-align: justify; padding: 10px 20px; background: #ffffff; line-height: 24px; border-bottom: 1px;}
+
+/* 페이지 */
+#page{position: relative; float: left; left: 50%; top: 50px;}
+#page div{position: relative; float: left; left: -50%; padding: 0px 2px; margin: -22px -42px; cursor: pointer; border-color: #ffffff; font-size: 15px; padding: 10px -20px;}
+#page > .active{cursor: default; color: red; font-weight: bold;}
+.prev, .next{ /* text-indent: -55555px */; }
+/* .box{height: 200px; width: 800px; background: #ff0000;} */
+
+/* 푸터 */
+#footer{width: 1420px; height: 489px; background: #73dcff; opacity: 0.5;}
+#footer_wrap1{width: 1420px; height: 378px; background: #ff4c4d;}
+#footer_wrap2{width: 1420px; height: 85px; background: #4cff4c;}
+.footerW1_1{width: 318px; height: 241px; margin-top: 90px; margin-left: 19px; background: #00bfff;}
+.footerW1_2{width: 318px; height: 241px; margin-top: 90px; margin-left: 36px; background: #00bfff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
